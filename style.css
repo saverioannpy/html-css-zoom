@@ -26,11 +26,13 @@
 .topbar{
     background-color: black;
     justify-content: flex-end;
+    height: 77px;
 }
 
 .topbar-btn{
     color: white;
     background-color: #4a4a4a;
+    height: 25px;
     margin: 5px;
     padding: 5px;
     border-radius: 10px;
@@ -42,6 +44,8 @@
 
 main {
     background-color: black;
+    height: calc(100vh - 168px);
+    overflow-y: scroll;
 }
 
 main .callerbox{
@@ -54,7 +58,7 @@ main .callerbox{
 
 main .callroom{
     max-width: calc(1920/7);
-    margin: 45px 88px;
+    margin-left: 88px;
 }
 
 main .callerinfo{
@@ -76,7 +80,6 @@ main .callerinfo{
 
 .footerbar{
     background-color: #222222;
-    width: 1920px;
     height: 80px;
     
 }
