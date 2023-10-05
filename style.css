@@ -9,3 +9,47 @@
 }
 
 
+/********
+* Common *
+*********/
+
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*******
+* HEAD *
+*******/
+
+.topbar{
+    background-color: black;
+    justify-content: flex-end;
+}
+
+.topbar-btn{
+    color: white;
+    background-color: #4a4a4a;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*******
+* MAIN *s
+*******/
+
+.callerbox{
+    height: 145px;
+    width: 240px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+}
+
+.callroom{
+    max-width: calc(1920/7);
+    background-color: darkgrey;
+    margin: 45px 88px;
+    }
