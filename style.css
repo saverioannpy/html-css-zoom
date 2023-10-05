@@ -41,15 +41,32 @@
 * MAIN *s
 *******/
 
-.callerbox{
+main {
+    background-color: black;
+}
+
+main .callerbox{
     height: 145px;
     width: 240px;
     margin-bottom: 16px;
     margin-right: 6px;
+    position: relative;
 }
 
-.callroom{
+main .callroom{
     max-width: calc(1920/7);
-    background-color: darkgrey;
     margin: 45px 88px;
-    }
+}
+
+main .callerinfo{
+    height: 27px;
+    width: 97px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 9px;
+    color: white;
+    background-color:rgba(100, 94, 94, 0.6);
+}
