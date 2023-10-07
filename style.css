@@ -47,12 +47,6 @@ body{
 * HEAD *
 *******/
 
-.topbar{
-    background-color: black;
-    justify-content: flex-end;
-    height: 77px;
-}
-
 .topbar-btn{
     color: white;
     background-color: #4a4a4a;
@@ -60,6 +54,12 @@ body{
     margin: 5px;
     padding: 5px;
     border-radius: 10px;
+}
+
+.topbar{
+    background-color: black;
+    justify-content: flex-end;
+    height: 77px;
 }
 
 /*******
