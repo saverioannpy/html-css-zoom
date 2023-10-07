@@ -13,10 +13,16 @@
 * Common *
 *********/
 
+body{
+
+    font-family: 'Roboto', sans-serif;
+}
+
 .container{
     max-width: 1920px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .btn{
@@ -24,6 +30,14 @@
     padding: 0;
     background-color: inherit;
     color: white;
+}
+
+.btn-2nd{
+    border: 0;
+    padding: 0;
+    background-color: #4a4a4a;;
+    color: #ff0000;
+    width: 115px;
 }
 
 /*******
@@ -100,13 +114,20 @@ footer {
     display: flex;
 }
 
-.footer-icon{
-    font-size: 20px;    
-}
-
 .footer-left,
 .footer-right{
-    width: 18%;
+    width: 15%;
+}
+
+.footer-right{
+    height: 80px;
+    width: 115px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-icon{
+    font-size: 17px;    
 }
 
 .chevron{
@@ -115,8 +136,4 @@ footer {
 
 .button-container{
    margin-right: 15px; 
-}
-
-.button-container .btn-active .footer-icon i{
-    color: #4bc800;
 }
