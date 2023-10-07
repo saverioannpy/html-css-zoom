@@ -14,8 +14,7 @@
 *********/
 
 body{
-
-    font-family: 'Roboto', sans-serif;
+    font-family: 'AR One Sans', sans-serif;
 }
 
 .container{
@@ -105,12 +104,15 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
 }
 
-.footer-left,
-.footer-center{
+.footer-left{
     padding-left: 10px;
+}
+
+.footer-right,
+.footer-center,
+.footer-left{
     display: flex;
 }
 
@@ -121,13 +123,12 @@ footer {
 
 .footer-right{
     height: 80px;
-    width: 115px;
-    display: flex;
     justify-content: flex-end;
 }
 
-.footer-icon{
-    font-size: 17px;    
+.footer-icon i{
+    font-size: 20px;  
+    margin-bottom: 5px;  
 }
 
 .chevron{
