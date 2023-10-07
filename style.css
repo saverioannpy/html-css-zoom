@@ -86,11 +86,12 @@ main .callerinfo{
 *******/
 
 footer {
-    background-color: gold;
+    background-color: #222222;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 15px;
 }
 
 .footer-left,
@@ -114,4 +115,8 @@ footer {
 
 .button-container{
    margin-right: 15px; 
+}
+
+.button-container .btn-active .footer-icon i{
+    color: #4bc800;
 }
